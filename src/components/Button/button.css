@@ -1,0 +1,12 @@
+.button__container {
+    width: 330px;
+    border-radius: 30px;
+    height: 20px;
+    padding: 12px;
+    background-color: #5881EA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

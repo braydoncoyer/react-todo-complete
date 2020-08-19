@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0;
+}
+
+.list__container {
+    width: 350px;
+}
+
+.list__container-content {
+    position: relative;
+    min-height: 450px;
+    padding: 30px;
+    background-color: #262E41;
+    border-radius: 20px;
+    color: white;
+}
+
+.list__container-content-item {
+    margin: 25px 0;
+}
+
+.list__container-content-item-complete {
+    opacity: 0.1;
+}
+
+.list__container-title {
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.input {
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 325px;
+    border: none;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+.list__container-content:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: -10px;
+    left: 27px;
+    border-radius: 10px 10px 0 0;
+    width: 85%;
+    height: 10px;
+    background-color: #31394C;
+}

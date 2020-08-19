@@ -1,0 +1,31 @@
+.listitem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listitem__checked {
+    opacity: 10%;
+}
+
+.listitem__buttons {
+    display: flex;
+}
+
+.completeButton, .deleteButton {
+    padding: 0 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.completeButton {
+    background-color: #5881EA;
+}
+.deleteButton {
+    background-color: #EA6958;
+}
